@@ -1,0 +1,36 @@
+/* CSS Reset */
+
+/* Establecer box-sizing a border-box para todos los elementos */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Establecer márgenes y padding a 0 para todos los elementos */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* Establecer estilos básicos para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif; /* Establecer una fuente predeterminada */
+    line-height: 1.5; /* Establecer un alto de línea adecuado */
+    color: #333; /* Color de texto predeterminado */
+    background-color: #fff; /* Color de fondo predeterminado */
+}
+
+/* Establecer estilos básicos para los elementos de lista */
+ul, ol {
+    list-style: none; /* Eliminar estilos de lista */
+}
+
+/* Establecer estilos básicos para los enlaces */
+a {
+    text-decoration: none; /* Eliminar subrayado predeterminado */
+    color: inherit; /* Heredar el color de texto */
+}
+
+/* Eliminar estilos de resaltado en enlaces al hacer clic */
+a:focus, a:hover {
+    outline: none;
+}

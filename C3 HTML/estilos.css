@@ -1,0 +1,103 @@
+/*Color de pagina*/
+body{
+    background: rgb(204, 204, 204);
+    font-style: 20px
+}
+
+
+
+
+/*proximo fondo de pantalla*/
+.logo{
+    background-color: aqua;
+    height: 500px;
+    width: 100%;
+    
+}
+
+
+
+
+/*texto de la pagina*/
+text{
+    color: black;
+
+}
+
+
+
+/*titulo principal de la pagina*/
+#titulo{
+    border: 2x solid black;
+    width: 60vw;
+    margin: auto;
+
+}
+
+
+
+
+/*botones de la pagina*/
+#botonesPrincipales{
+    
+    justify-content: space-around;
+}
+.buttom{
+    border: 2px solid yellow;
+    width: 60vw;
+    margin: auto;
+    padding: 0px 0em 0em 0em;
+    border-radius: 5%;
+    transition: 1s;
+
+    justify-content: space-around;
+}
+
+.buttom:hover{
+    background-color: yellow;
+}
+
+
+
+
+/*Formulario*/
+.buttom2{
+    border: 2px solid yellow;
+    width: 60vw;
+    margin: auto;
+    transition: 1s;
+}
+
+.buttom2:hover{
+    background-color: yellow;
+
+}
+
+
+
+
+/*predator logo & buttom*/
+.predatorLogos{
+    width: 200px;   
+    height: 50px;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+
+
+/*Botones de enlaces*/
+.logoEnlaces{
+    width: 55px;
+    height: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#logo-Enlaces{
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
